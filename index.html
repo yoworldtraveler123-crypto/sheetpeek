@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SheetPeek — see what your formula is looking at</title>
+<meta name="description" content="A Chrome extension for Google Sheets. Click a cell and see the actual values behind its references, without jumping between sheets.">
+<style>
+  :root { --ink:#202124; --muted:#5f6368; --line:#e8eaed; --accent:#188038; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#fff; color:var(--ink); line-height:1.7;
+         font-family:-apple-system,"Helvetica Neue",Arial,sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:72px 24px 96px; }
+  h1 { font-size:34px; line-height:1.25; margin:0 0 12px; letter-spacing:-.01em; }
+  .lede { font-size:18px; color:var(--muted); margin:0 0 40px; }
+  h2 { font-size:17px; margin:44px 0 10px; }
+  ul { padding-left:20px; margin:0; }
+  li { margin-bottom:6px; }
+  .rule { border:0; border-top:1px solid var(--line); margin:56px 0 0; }
+  footer { margin-top:24px; font-size:13px; color:var(--muted); }
+  footer a { color:var(--muted); }
+  .tag { display:inline-block; font-size:12px; color:var(--accent);
+         border:1px solid var(--accent); border-radius:20px; padding:2px 10px; margin-bottom:20px; }
+</style>
+</head>
+<body>
+<main>
+  <span class="tag">Chrome extension for Google Sheets</span>
+  <h1>See what your formula is looking at.</h1>
+  <p class="lede">Click a cell. SheetPeek shows the actual values behind every reference in the formula, with the column header, right next to it. No jumping between sheets.</p>
+
+  <h2>No explanations. Just the data.</h2>
+  <p>SheetPeek doesn't try to explain your formula. It shows you what the formula is looking at, so you can judge it yourself in one second.</p>
+
+  <h2>Private by design</h2>
+  <ul>
+    <li>No account, no sign-in, no OAuth screen</li>
+    <li>No server. Values are read inside your own browser session, from the spreadsheet you already have open</li>
+    <li>Nothing is sent anywhere. No analytics, no data collection</li>
+    <li>Runs only on docs.google.com/spreadsheets</li>
+  </ul>
+
+  <h2>Works with</h2>
+  <p>VLOOKUP, XLOOKUP, INDEX/MATCH, SUMIF/SUMIFS, COUNTIFS, QUERY, IFERROR wrappers, whole-column ranges, and cross-sheet references. Anything written in A1 notation.</p>
+
+  <hr class="rule">
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="mailto:yo.world.traveler.123@gmail.com">Contact</a>
+  </footer>
+</main>
+</body>
+</html>
